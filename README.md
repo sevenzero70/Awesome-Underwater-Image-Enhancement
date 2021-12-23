@@ -1,4 +1,4 @@
-# Awesome-Underwater-Images-Enhancement
+# Awesome-Underwater-Image-Enhancement
 The information about underwater images enhancment(updating……)
 
 # A survey
