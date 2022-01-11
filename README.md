@@ -54,7 +54,7 @@ This part is almost GAN-based supplementary-information methods
 * Li, H., Li, J., Wang, W.: A Fusion Adversarial Underwater Image Enhancement Network with a Public Test Dataset. arXiv e-prints arXiv:1906.06819 (2019) [[paper]](https://arxiv.org/abs/1906.06819)`FGAN`
 * Lu, J., Li, N., Zhang, S., Yu, Z., Zheng, H., Zheng, B.: Multi-scale adversarial network for underwater image restoration. Optics & Laser Technology (2019) [[paper]](https://www.sciencedirect.com/science/article/pii/S003039921830690X?via%3Dihub)
 
-# 2.3
+## 2.3
 This part is almost multi-generator or multi-discriminator GAN-based methods
 * Jolicoeur-Martineau, A.: The relativistic discriminator: a key element missing from standard gan. arXiv preprint arXiv:1807.00734 (2018) [[paper]](https://scholar.google.com/scholar?q=The%20relativistic%20discriminator:%20a%20key%20element%20missing%20from%20standard%20GAN)`UWGAN`
 * Ren, S., He, K., Girshick, R., etal: Guided image filtering. TPAMI (2017) [[paper]](https://link.springer.com/chapter/10.1007%2F978-3-642-15549-9_1)`MCycleGAN`
