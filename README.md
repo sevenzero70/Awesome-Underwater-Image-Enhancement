@@ -26,7 +26,8 @@ Underwater Image Enhancement Benchmark Dataset（水下图像增强基准数据�
 https://li-chongyi.github.io/proj_benchmark.html <br>
 
 # Survey
-* Saeed Anwar and Chongyi Li, “Diving deeper into underwater image enhancement: A survey,”Signal Processing-image Communication, 2020, doi: 10.1016/j.image.2020.115978.[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0923596520301478)[[note]]()
+* Saeed Anwar and Chongyi Li, “Diving deeper into underwater image enhancement: A survey,”Signal Processing-image Communication, 2020, doi: 10.1016/j.image.2020.115978.[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0923596520301478)[[note]](https://www.yuque.com/u12128212/yrs2r6/gu6n1o)
+* M. Han, Z. Lyu, T. Qiu, and M. Xu, “A Review on Intelligence Dehazing and Color Restoration for Underwater Images,” IEEE Trans. Syst. Man Cybern, Syst., vol. 50, no. 5, pp. 1820–1832, May 2020, doi: 10.1109/TSMC.2017.2788902. [[paper]](https://ieeexplore.ieee.org/document/8267119)
 
 # 1 The backbone of these model almost use CNN.
 ## 1.1
