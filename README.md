@@ -63,3 +63,14 @@ This part is almost multi-generator or multi-discriminator GAN-based methods
 * Uplavikar, P., Wu, Z., Wang, Z.: All-in-one underwater image enhancement using domain-adversarial learning. arXiv preprint arXiv:1905.13342 (2019) [[paper]](https://scholar.google.com/scholar?q=All-in-One%20Underwater%20Image%20Enhancement%20Using%20Domain-Adversarial%20Learning)
 * Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolu- tional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention (2015) [[paper]](https://scholar.google.com/scholar?q=U-Net:%20Convolutional%20Networks%20for%20Biomedical%20Image%20Segmentation)`UIE-sGAN`
 
+# 4 Comparison
+| 记法 | 含义 |
+|:-: | :----- |
+| %N | 作业号 |
+| %S | 以字符串S开头的被(命令行)调用的作业 |
+| %?S | 包含字符串S的被(命令行)调用的作业 |
+| %% | "当前"作业(前台最后结束的作业, 或后台最后启动的作业) |
+| %+ | "当前"作业(前台最后结束的作业, 或后台最后启动的作业)|
+| %- | 最后的作业|
+| $! | 最后的后台进程 |
+
