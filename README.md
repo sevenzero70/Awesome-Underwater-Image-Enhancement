@@ -71,7 +71,7 @@ This part is almost multi-generator or multi-discriminator GAN-based methods
     <th>时间</th>
 </tr>
 <tr>
-    <th>SSR </th>
+    <th>`SSR` </th>
     <th>Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462</th>
 </tr>
 <tr>
