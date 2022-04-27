@@ -29,7 +29,6 @@ https://li-chongyi.github.io/proj_benchmark.html <br>
 * Saeed Anwar and Chongyi Li, “Diving deeper into underwater image enhancement: A survey,”Signal Processing-image Communication, 2020, doi: 10.1016/j.image.2020.115978.[[paper]](https://www.sciencedirect.com/science/article/abs/pii/S0923596520301478)[[note]](https://www.yuque.com/u12128212/yrs2r6/gu6n1o)
 * M. Han, Z. Lyu, T. Qiu, and M. Xu, “A Review on Intelligence Dehazing and Color Restoration for Underwater Images,” IEEE Trans. Syst. Man Cybern, Syst., vol. 50, no. 5, pp. 1820–1832, May 2020, doi: 10.1109/TSMC.2017.2788902. [[paper]](https://ieeexplore.ieee.org/document/8267119)
 
-
 # 1 The backbone of these model almost use CNN.
 ## 1.1
 This part is almost CNN-based single-information methods
@@ -65,10 +64,11 @@ This part is almost multi-generator or multi-discriminator GAN-based methods
 * Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolu- tional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention (2015) [[paper]](https://scholar.google.com/scholar?q=U-Net:%20Convolutional%20Networks%20for%20Biomedical%20Image%20Segmentation)`UIE-sGAN`
 
 # 4 Comparison
-* `SSR`[paper][code] <br>
-Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462
-* `MSR`[paper][code] <br>
-Jobson D.J., Rahman Z., Woodell G.A. A multiscale retinex for bridging the gap between color images and the human observation of scenes IEEE Trans Image Process, 6 (7) (2002), pp. 965-976
+* Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462 <br>
+`SSR`[paper](https://ieeexplore.ieee.org/abstract/document/557356)[code] <br>
+* Jobson D.J., Rahman Z., Woodell G.A. A multiscale retinex for bridging the gap between color images and the human observation of scenes IEEE Trans Image Process, 6 (7) (2002), pp. 965-976 <br>
+`MSR`[paper][code]
+
 * `MR`[paper][code] <br>
 Rahman Z, Jobson DJ, Woodell GA. Multi-scale retinex for color image enhancement. In: Proceedings of 3rd IEEE international conference on image processing. 2002.
 * `FB`[paper][code] <br>
