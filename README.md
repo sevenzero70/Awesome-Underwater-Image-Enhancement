@@ -68,12 +68,12 @@ This part is almost multi-generator or multi-discriminator GAN-based methods
   > Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462 <br>
 
 * ***`MSR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/597272)[code]
-> Jobson D.J., Rahman Z., Woodell G.A. A multiscale retinex for bridging the gap between color images and the human observation of scenes IEEE Trans Image Process, 6 (7) (2002), pp. 965-976 <br>
+  > Jobson D.J., Rahman Z., Woodell G.A. A multiscale retinex for bridging the gap between color images and the human observation of scenes IEEE Trans Image Process, 6 (7) (2002), pp. 965-976 <br>
 
 * ***`MR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/560995)[code] <br>
-Rahman Z, Jobson DJ, Woodell GA. Multi-scale retinex for color image enhancement. In: Proceedings of 3rd IEEE international conference on image processing. 2002.
-* `FB`[paper][code] <br>
-Ancuti C, Ancuti CO, Haber T, Bekaert P. Enhancing underwater images and videos by fusion. In: IEEE conference on computer vision & pattern recognition. 2012, p. 81–8.
+  > Rahman Z, Jobson DJ, Woodell GA. Multi-scale retinex for color image enhancement. In: Proceedings of 3rd IEEE international conference on image processing. 2002.
+* ***`FB`*** ----- [paper][code] <br>
+  > Ancuti C, Ancuti CO, Haber T, Bekaert P. Enhancing underwater images and videos by fusion. In: IEEE conference on computer vision & pattern recognition. 2012, p. 81–8.
 * `UWCNN`[paper][code] <br>
 Li C., Anwar S. Underwater scene prior inspired deep underwater image and video enhancement Pattern Recognit, 98 (2019), Article 107038
 * `TB`[paper][code] <br>
