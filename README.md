@@ -64,8 +64,9 @@ This part is almost multi-generator or multi-discriminator GAN-based methods
 * Ronneberger, O., Fischer, P., Brox, T.: U-net: Convolu- tional networks for biomedical image segmentation. In: International Conference on Medical image computing and computer-assisted intervention (2015) [[paper]](https://scholar.google.com/scholar?q=U-Net:%20Convolutional%20Networks%20for%20Biomedical%20Image%20Segmentation)`UIE-sGAN`
 
 # 4 Comparison
-* Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462 <br>
-`SSR`[paper](https://ieeexplore.ieee.org/abstract/document/557356)[code] <br>
+* ***SSR*** [[paper]](https://ieeexplore.ieee.org/abstract/document/557356)[code] <br>
+> Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462 <br>
+
 * Jobson D.J., Rahman Z., Woodell G.A. A multiscale retinex for bridging the gap between color images and the human observation of scenes IEEE Trans Image Process, 6 (7) (2002), pp. 965-976 <br>
 `MSR`[paper][code]
 
