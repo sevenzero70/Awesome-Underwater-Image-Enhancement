@@ -67,8 +67,8 @@ This part is almost multi-generator or multi-discriminator GAN-based methods
 * ***SSR*** [[paper]](https://ieeexplore.ieee.org/abstract/document/557356)[code] <br>
 > Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462 <br>
 
-* Jobson D.J., Rahman Z., Woodell G.A. A multiscale retinex for bridging the gap between color images and the human observation of scenes IEEE Trans Image Process, 6 (7) (2002), pp. 965-976 <br>
-`MSR`[paper][code]
+* ***`MSR`*** [paper][code]
+> Jobson D.J., Rahman Z., Woodell G.A. A multiscale retinex for bridging the gap between color images and the human observation of scenes IEEE Trans Image Process, 6 (7) (2002), pp. 965-976 <br>
 
 * `MR`[paper][code] <br>
 Rahman Z, Jobson DJ, Woodell GA. Multi-scale retinex for color image enhancement. In: Proceedings of 3rd IEEE international conference on image processing. 2002.
