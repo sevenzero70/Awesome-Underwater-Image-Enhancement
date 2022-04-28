@@ -30,11 +30,6 @@ Underwater Image Enhancement Benchmark Dataset（水下图像增强基准数据�
 
 # 4 Comparison
 # 4.1 Tradition
-# 4.2 Deep Learning
-* ***`UWCNN`*** ----- [[paper]](https://www.sciencedirect.com/science/article/pii/S0031320319303401?casa_token=rzfvsEXr4hAAAAAA:Nkt4m1ZHy8ORrftU2CWfoyn7VPd1iM_Gz8Qc51ihdh1FEjveggOwmaeNnEbizBIgNHXPUzPZWv0)[code] <br>
-  > Li C., Anwar S. Underwater scene prior inspired deep underwater image and video enhancement Pattern Recognit, 98 (2019), Article 107038
-----------
-
 * ***`SSR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/557356)[code]
   > Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462 <br>
 
@@ -47,35 +42,68 @@ Underwater Image Enhancement Benchmark Dataset（水下图像增强基准数据�
 * ***`FB`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/6247661)[code]
   > Ancuti C, Ancuti CO, Haber T, Bekaert P. Enhancing underwater images and videos by fusion. In: IEEE conference on computer vision & pattern recognition. 2012, p. 81–8.
 
-* `TB`[paper][code] 
-Drews JP, Nascimento E, Moraes F, Botelho S, Campos M. Transmission estimation in underwater single images. In: IEEE international conference on computer vision workshops. 2013.
+* ***`TB`*** ----- [[paper]](https://www.cv-foundation.org//openaccess/content_iccv_workshops_2013/W24/papers/Drews_Jr._Transmission_Estimation_in_2013_ICCV_paper.pdf)[code] 
+  > Drews JP, Nascimento E, Moraes F, Botelho S, Campos M. Transmission estimation in underwater single images. In: IEEE international conference on computer vision workshops. 2013.
 
-* `DCP`[paper][code] <br>
-K. He, J. Sun and X. Tang, "Single image haze removal using dark channel prior", IEEE transactions on pattern analysis and machine intelligence, 2011.
+* ***`DCP`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/5567108)[code] <br>
+  > K. He, J. Sun and X. Tang, "Single image haze removal using dark channel prior", IEEE transactions on pattern analysis and machine intelligence, 2011.
 
-* `IBLA`[paper][code] <br>
-Y.-T. Peng and P. C. Cosman, "Underwater image restoration based on image blurriness and light absorption", IEEE transactions on image processing, 2017.
+* ***`VIM`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7782813)[code] <br>
+  > Xiaojie Guo, Yu Li, and Haibin Ling. Lime: Low-light image enhancement via illumination map estimation. IEEE Transactions on Image Processing, 26(2):982–993, 2016. 1, 2, 7, 8
 
-* `UGAN`[paper][code] <br>
-C. Fabbri, M. J. Islam and J. Sattar, "Enhancing underwater imagery using generative adversarial networks", IEEE International Conference on Robotics and Automation (ICRA), 2018.
+* ***`FA`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8050994)[code] <br>
+  > Y. Wang, H. Liu, and L.-P. Chau, “Single underwater image restoration using attenuation-curve prior,” in Proc. IEEE Int. Symp. Circuits Syst. May 2017.
 
-* `Water-Net`[paper][code] <br>
-C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, et al., "An underwater image enhancement benchmark dataset and beyond", IEEE Transactions on Image Processing, 2019.
+* ***`IBLA`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7840002)[code] <br>
+  > Y.-T. Peng and P. C. Cosman, "Underwater image restoration based on image blurriness and light absorption", IEEE transactions on image processing, 2017.
 
-* `FUnIE-GAN`[paper][code] <br>
-M. J. Islam, Y. Xia and J. Sattar, "Fast underwater image enhancement for improved visual perception", IEEE Robotics and Automation Letters, 2020.
+* ***`MRP`*** ----- [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Fast_Haze_Removal_CVPR_2017_paper.pdf)[code] <br>
+  > Jing Zhang, Yang Cao, Shuai Fang, Yu Kang, and Chang Wen Chen. Fast haze removal for nighttime image using maximum reflectance prior. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7418–7426, 2017. 1, 2, 7, 8
 
-* `Deep SESR`[paper][code] <br>
-M. J. Islam, P. Luo and J. Sattar, "Simultaneous Enhancement and Super-Resolution of Underwater Imagery for Improved Visual Perception", Robotics: Science and Systems (RSS), 2020.
+* ***`UVSB`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7989087)[code] <br>
+  > Younggun Cho and Ayoung Kim.Visibility enhancement for underwater visual slam based on underwater light scattering model. In 2017 IEEE International Conference on Robotics and Automation (ICRA), pages 710–717. IEEE, 2017. 1, 2, 7, 8
 
-* `NUDCP`[paper][code] <br>
-W. Song, Y. Wang, D. Huang, A. Liotta, and C. Perra, “Enhancement of Underwater Images with Statistical Model of Background Light and Optimization of Transmission Map,” IEEE Trans. Broadcast. 66(1), 153–169 (2020).
+* ***`Deep SESR`*** ----- [[paper]](https://arxiv.org/abs/2002.01155)[code] <br>
+  > M. J. Islam, P. Luo and J. Sattar, "Simultaneous Enhancement and Super-Resolution of Underwater Imagery for Improved Visual Perception", Robotics: Science and Systems (RSS), 2020.
 
-* `(SR)CNN`[paper][code] <br>
-Y. Li, C. Ma, T. Zhang, J. Li, Z. Ge, Y. Li, and S. Serikawa, “Underwater Image High Definition Display Using the Multilayer Perceptron and Color Feature-Based SRCNN,” IEEE Access 7, 83721–83728 (2019).
+* ***`NUDCP`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8957276)[code] <br>
+  > W. Song, Y. Wang, D. Huang, A. Liotta, and C. Perra, “Enhancement of Underwater Images with Statistical Model of Background Light and Optimization of Transmission Map,” IEEE Trans. Broadcast. 66(1), 153–169 (2020).
 
-* `FA`[paper][code] <br>
-Y. Wang, H. Liu, and L.-P. Chau, “Single underwater image restoration using attenuation-curve prior,” in Proc. IEEE Int. Symp. Circuits Syst. May 2017.
+# 4.2 Deep Learning
+* ***`Unet`*** ----- [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Kim_Accurate_Image_Super-Resolution_CVPR_2016_paper.pdf)[code] <br>
+  > J. Kim, J. K. Lee, and K. M. Lee, “Accurate image super-resolution using very deep convolutional networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2016, pp. 1646–1654.
+
+* ***`CycleGAN`*** ----- [[paper]](https://openaccess.thecvf.com/content_iccv_2017/html/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.html)[code] <br>
+  > J. Zhu, T. Park, P. Isola, A.A. Efros, Unpaired image-to-image translation using cycle-consistent adversarial networks, in: IEEE International Conference on Computer Vision (ICCV), 2017, pp. 2242–2251, doi:10.1109/ICCV.2017.244.
+
+* ***`UWCNN`*** ----- [[paper]](https://www.sciencedirect.com/science/article/pii/S0031320319303401?casa_token=rzfvsEXr4hAAAAAA:Nkt4m1ZHy8ORrftU2CWfoyn7VPd1iM_Gz8Qc51ihdh1FEjveggOwmaeNnEbizBIgNHXPUzPZWv0)[code] <br>
+  > Li C., Anwar S. Underwater scene prior inspired deep underwater image and video enhancement Pattern Recognit, 98 (2019), Article 107038
+
+* ***`UcycleGAN`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8253820)[code] <br>
+  > C. Li, J. Guo, and C. Guo, “Emerging from water: Underwater image color correction based on weakly supervised color transfer,” IEEE Signal Process. Lett., vol. 25, no. 3, pp. 323–327, Mar. 2018.
+
+* ***`UGAN`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8460552)[code] <br>
+  > C. Fabbri, M. J. Islam and J. Sattar, "Enhancing underwater imagery using generative adversarial networks", IEEE International Conference on Robotics and Automation (ICRA), 2018.
+
+* ***`CG`*** ----- [[paper]](https://www.mdpi.com/2313-433X/5/10/79)[code] <br>
+  > Tunai Porto Marques, Alexandra Branzan Albu, and Maia Hoeberechts. A contrast-guided approach for the enhancement of low-lighting underwater images. Journal of Imaging, 5(10):79, 2019. 1, 2, 3, 4, 5, 7, 8
+
+* ***`Water-Net`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8917818)[code] <br>
+  > C. Li, C. Guo, W. Ren, R. Cong, J. Hou, S. Kwong, et al., "An underwater image enhancement benchmark dataset and beyond", IEEE Transactions on Image Processing, 2019.
+
+* ***`(SR)CNN`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8746235)[code] <br>
+  > Y. Li, C. Ma, T. Zhang, J. Li, Z. Ge, Y. Li, and S. Serikawa, “Underwater Image High Definition Display Using the Multilayer Perceptron and Color Feature-Based SRCNN,” IEEE Access 7, 83721–83728 (2019).
+
+* ***`MDGAN`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8730425)[code] <br>
+  > Y. Guo, H. Li, and P. Zhuang, “Underwater image enhancement using a multiscale dense generative adversarial network,” IEEE J. Ocean. Eng., vol. 45, no. 3, pp. 862–870, Jul. 2020.
+
+* ***`FUnIE-GAN`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/9001231)[code] <br>
+  > M. J. Islam, Y. Xia and J. Sattar, "Fast underwater image enhancement for improved visual perception", IEEE Robotics and Automation Letters, 2020.
+
+* ***`Ucolor`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/9426457)[code] <br>
+  > C. Li, S. Anwar, J. Hou, R. Cong, C. Guo and W. Ren, "Underwater Image Enhancement via Medium Transmission-Guided Multi-Color Space Embedding," in IEEE Transactions on Image Processing, vol. 30, pp. 4985-5000, 2021, doi: 10.1109/TIP.2021.3076367.
+
+----------
 
 * `UDCP`[paper][code] <br>
 Drews P.L.J., Nascimento E.R., Botelho S.S.C., Montenegro Campos M.F. Underwater depth estimation and image restoration based on single images IEEE Comput Graph Appl, 36 (2) (2016), pp. 24-35
@@ -106,29 +134,6 @@ D. Berman, T. Treibitz, S. Avidan Diving into haze-lines: color restoration of u
 * `Histogram Prior`[paper][code] <br>
 C.-Y. Li, J.-C. Guo, R.-M. Cong, Y.-W. Pang, B. Wang Underwater image enhancement by dehazing with minimum information loss and histogram distribution prior IEEE Trans. Image Process., 25 (12) (2016), pp. 5664-5677
 
-* `CycleGAN`[paper][code] <br>
-J. Zhu, T. Park, P. Isola, A.A. Efros, Unpaired image-to-image translation using cycle-consistent adversarial networks, in: IEEE International Conference on Computer Vision (ICCV), 2017, pp. 2242–2251, doi:10.1109/ICCV.2017.244.
+ 
 
-* `CG`[paper][code] <br>
-Tunai Porto Marques, Alexandra Branzan Albu, and Maia Hoeberechts. A contrast-guided approach for the enhancement of low-lighting underwater images. Journal of Imaging, 5(10):79, 2019. 1, 2, 3, 4, 5, 7, 8
 
-* `UVSB`[paper][code] <br>
-Younggun Cho and Ayoung Kim.Visibility enhancement for underwater visual slam based on underwater light scattering model. In 2017 IEEE International Conference on Robotics and Automation (ICRA), pages 710–717. IEEE, 2017. 1, 2, 7, 8
-
-* `MRP`[paper][code] <br>
-Jing Zhang, Yang Cao, Shuai Fang, Yu Kang, and Chang Wen Chen. Fast haze removal for nighttime image using maximum reflectance prior. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7418–7426, 2017. 1, 2, 7, 8
-
-* `VIM`[paper][code] <br>
-Xiaojie Guo, Yu Li, and Haibin Ling. Lime: Low-light image enhancement via illumination map estimation. IEEE Transactions on Image Processing, 26(2):982–993, 2016. 1, 2, 7, 8
-
-* `Ucolor`[paper][code] <br>
-C. Li, S. Anwar, J. Hou, R. Cong, C. Guo and W. Ren, "Underwater Image Enhancement via Medium Transmission-Guided Multi-Color Space Embedding," in IEEE Transactions on Image Processing, vol. 30, pp. 4985-5000, 2021, doi: 10.1109/TIP.2021.3076367.
-
-* `MDGAN`[paper][code] <br>
-Y. Guo, H. Li, and P. Zhuang, “Underwater image enhancement using a multiscale dense generative adversarial network,” IEEE J. Ocean. Eng., vol. 45, no. 3, pp. 862–870, Jul. 2020.
-
-* `UcycleGAN`[paper][code] <br>
-C. Li, J. Guo, and C. Guo, “Emerging from water: Underwater image color correction based on weakly supervised color transfer,” IEEE Signal Process. Lett., vol. 25, no. 3, pp. 323–327, Mar. 2018.
-
-* `Unet`[paper][code] <br>
-J. Kim, J. K. Lee, and K. M. Lee, “Accurate image super-resolution using very deep convolutional networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2016, pp. 1646–1654.
