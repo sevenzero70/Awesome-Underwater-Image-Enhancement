@@ -29,58 +29,7 @@ Underwater Image Enhancement Benchmark Dataset（水下图像增强基准数据�
 * M. Han, Z. Lyu, T. Qiu, and M. Xu, “A Review on Intelligence Dehazing and Color Restoration for Underwater Images,” IEEE Trans. Syst. Man Cybern, Syst., vol. 50, no. 5, pp. 1820–1832, May 2020, doi: 10.1109/TSMC.2017.2788902. [[paper]](https://ieeexplore.ieee.org/document/8267119)
 
 # 4 Comparison
-# 4.1 Tradition
-* ***`SSR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/557356)[code]
-  > Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462 <br>
-
-* ***`MSR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/597272)[code]
-  > Jobson D.J., Rahman Z., Woodell G.A. A multiscale retinex for bridging the gap between color images and the human observation of scenes IEEE Trans Image Process, 6 (7) (2002), pp. 965-976 <br>
-
-* ***`MR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/560995)[code]
-  > Rahman Z, Jobson DJ, Woodell GA. Multi-scale retinex for color image enhancement. In: Proceedings of 3rd IEEE international conference on image processing. 2002.
-
-* ***`FB`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/6247661)[code]
-  > Ancuti C, Ancuti CO, Haber T, Bekaert P. Enhancing underwater images and videos by fusion. In: IEEE conference on computer vision & pattern recognition. 2012, p. 81–8.
-
-* ***`TB`*** ----- [[paper]](https://www.cv-foundation.org//openaccess/content_iccv_workshops_2013/W24/papers/Drews_Jr._Transmission_Estimation_in_2013_ICCV_paper.pdf)[code] 
-  > Drews JP, Nascimento E, Moraes F, Botelho S, Campos M. Transmission estimation in underwater single images. In: IEEE international conference on computer vision workshops. 2013.
-
-* ***`DCP`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/5567108)[code] <br>
-  > K. He, J. Sun and X. Tang, "Single image haze removal using dark channel prior", IEEE transactions on pattern analysis and machine intelligence, 2011.
-
-* ***`VIM`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7782813)[code] <br>
-  > Xiaojie Guo, Yu Li, and Haibin Ling. Lime: Low-light image enhancement via illumination map estimation. IEEE Transactions on Image Processing, 26(2):982–993, 2016. 1, 2, 7, 8
-
-* ***`Histogram Prior`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7574330)[code] <br>
-  > C.-Y. Li, J.-C. Guo, R.-M. Cong, Y.-W. Pang, B. Wang Underwater image enhancement by dehazing with minimum information loss and histogram distribution prior IEEE Trans. Image Process., 25 (12) (2016), pp. 5664-5677
-
-* ***`UDCP`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7426236)[code] <br>
-  > Drews P.L.J., Nascimento E.R., Botelho S.S.C., Montenegro Campos M.F. Underwater depth estimation and image restoration based on single images IEEE Comput Graph Appl, 36 (2) (2016), pp. 24-35
-
-* ***`FA`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8050994)[code] <br>
-  > Y. Wang, H. Liu, and L.-P. Chau, “Single underwater image restoration using attenuation-curve prior,” in Proc. IEEE Int. Symp. Circuits Syst. May 2017.
-
-* ***`IBLA`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7840002)[code] <br>
-  > Y.-T. Peng and P. C. Cosman, "Underwater image restoration based on image blurriness and light absorption", IEEE transactions on image processing, 2017.
-
-* ***`TS`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8266583)[code] <br>
-  > X. Fu, Z. Fan, M. Ling, Y. Huang and X. Ding, "Two-step approach for single underwater image enhancement," 2017 International Symposium on Intelligent Signal Processing and Communication Systems (ISPACS), 2017, pp. 789-794, doi: 10.1109/ISPACS.2017.8266583.
-
-* ***`MRP`*** ----- [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Fast_Haze_Removal_CVPR_2017_paper.pdf)[code] <br>
-  > Jing Zhang, Yang Cao, Shuai Fang, Yu Kang, and Chang Wen Chen. Fast haze removal for nighttime image using maximum reflectance prior. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7418–7426, 2017. 1, 2, 7, 8
-
-* ***`UVSB`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7989087)[code] <br>
-  > Younggun Cho and Ayoung Kim.Visibility enhancement for underwater visual slam based on underwater light scattering model. In 2017 IEEE International Conference on Robotics and Automation (ICRA), pages 710–717. IEEE, 2017. 1, 2, 7, 8
-
-* ***`Deep SESR`*** ----- [[paper]](https://arxiv.org/abs/2002.01155)[code] <br>
-  > M. J. Islam, P. Luo and J. Sattar, "Simultaneous Enhancement and Super-Resolution of Underwater Imagery for Improved Visual Perception", Robotics: Science and Systems (RSS), 2020.
-
-* ***`NUDCP`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8957276)[code] <br>
-  > W. Song, Y. Wang, D. Huang, A. Liotta, and C. Perra, “Enhancement of Underwater Images with Statistical Model of Background Light and Optimization of Transmission Map,” IEEE Trans. Broadcast. 66(1), 153–169 (2020).
-
-
-
-# 4.2 Deep Learning
+## 4.1 Deep Learning
 * ***`Unet`*** ----- [[paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Kim_Accurate_Image_Super-Resolution_CVPR_2016_paper.pdf)[code] <br>
   > J. Kim, J. K. Lee, and K. M. Lee, “Accurate image super-resolution using very deep convolutional networks,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), Jun. 2016, pp. 1646–1654.
 
@@ -120,16 +69,66 @@ Underwater Image Enhancement Benchmark Dataset（水下图像增强基准数据�
 * ***`Ucolor`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/9426457)[code] <br>
   > C. Li, S. Anwar, J. Hou, R. Cong, C. Guo and W. Ren, "Underwater Image Enhancement via Medium Transmission-Guided Multi-Color Space Embedding," in IEEE Transactions on Image Processing, vol. 30, pp. 4985-5000, 2021, doi: 10.1109/TIP.2021.3076367.
 
-----------
-----------
+## 4.2 Tradition
+* ***`SSR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/557356)[code]
+  > Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462 <br>
 
-* `UIC`[paper][code] <br>
-Li C., Guo J., Guo C., Cong R., Gong J. A hybrid method for underwater image correction Pattern Recognit Lett, 94 (2017), pp. 62-67
+* ***`MSR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/597272)[code]
+  > Jobson D.J., Rahman Z., Woodell G.A. A multiscale retinex for bridging the gap between color images and the human observation of scenes IEEE Trans Image Process, 6 (7) (2002), pp. 965-976 <br>
+
+* ***`MR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/560995)[code]
+  > Rahman Z, Jobson DJ, Woodell GA. Multi-scale retinex for color image enhancement. In: Proceedings of 3rd IEEE international conference on image processing. 2002.
+
+* ***`FB`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/6247661)[code]
+  > Ancuti C, Ancuti CO, Haber T, Bekaert P. Enhancing underwater images and videos by fusion. In: IEEE conference on computer vision & pattern recognition. 2012, p. 81–8.
+
+* ***`TB`*** ----- [[paper]](https://www.cv-foundation.org//openaccess/content_iccv_workshops_2013/W24/papers/Drews_Jr._Transmission_Estimation_in_2013_ICCV_paper.pdf)[code] 
+  > Drews JP, Nascimento E, Moraes F, Botelho S, Campos M. Transmission estimation in underwater single images. In: IEEE international conference on computer vision workshops. 2013.
+
+* ***`DCP`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/5567108)[code] <br>
+  > K. He, J. Sun and X. Tang, "Single image haze removal using dark channel prior", IEEE transactions on pattern analysis and machine intelligence, 2011.
+
+* ***`RBEA`*** ----- [[paper]](https://ieeexplore.ieee.org/document/7025927)[code] <br>
+  > Fu X., Zhuang P., Huang Y., Liao Y., Zhang X., Ding X. A retinex-based enhancing approach for single underwater image 2014 IEEE international conference on image processing (ICIP) (2014), pp. 4572-4576
+
+* ***`VIM`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7782813)[code] <br>
+  > Xiaojie Guo, Yu Li, and Haibin Ling. Lime: Low-light image enhancement via illumination map estimation. IEEE Transactions on Image Processing, 26(2):982–993, 2016. 1, 2, 7, 8
+
+* ***`Histogram Prior`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7574330)[code] <br>
+  > C.-Y. Li, J.-C. Guo, R.-M. Cong, Y.-W. Pang, B. Wang Underwater image enhancement by dehazing with minimum information loss and histogram distribution prior IEEE Trans. Image Process., 25 (12) (2016), pp. 5664-5677
+
+* ***`UDCP`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7426236)[code] <br>
+  > Drews P.L.J., Nascimento E.R., Botelho S.S.C., Montenegro Campos M.F. Underwater depth estimation and image restoration based on single images IEEE Comput Graph Appl, 36 (2) (2016), pp. 24-35
+
+* ***`FA`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8050994)[code] <br>
+  > Y. Wang, H. Liu, and L.-P. Chau, “Single underwater image restoration using attenuation-curve prior,” in Proc. IEEE Int. Symp. Circuits Syst. May 2017.
+
+* ***`IBLA`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7840002)[code] <br>
+  > Y.-T. Peng and P. C. Cosman, "Underwater image restoration based on image blurriness and light absorption", IEEE transactions on image processing, 2017.
+
+* ***`Hybrid-UIC`*** ----- [[paper]](https://www.sciencedirect.com/science/article/pii/S016786551730171X?casa_token=_kn2EpjPDt0AAAAA:NDnKeeNwqUvCqzkzjsgRBEVYgJBk2phQYa_wZNkAUfksyQsuv7NzSYcBcX6Z5bZs2ClG7vbR9ww)[code] <br>
+  > Li C., Guo J., Guo C., Cong R., Gong J. A hybrid method for underwater image correction Pattern Recognit Lett, 94 (2017), pp. 62-67
+
+* ***`TS`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8266583)[code] <br>
+  > X. Fu, Z. Fan, M. Ling, Y. Huang and X. Ding, "Two-step approach for single underwater image enhancement," 2017 International Symposium on Intelligent Signal Processing and Communication Systems (ISPACS), 2017, pp. 789-794, doi: 10.1109/ISPACS.2017.8266583.
+
+* ***`MRP`*** ----- [[paper]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Fast_Haze_Removal_CVPR_2017_paper.pdf)[code] <br>
+  > Jing Zhang, Yang Cao, Shuai Fang, Yu Kang, and Chang Wen Chen. Fast haze removal for nighttime image using maximum reflectance prior. In Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, pages 7418–7426, 2017. 1, 2, 7, 8
+
+* ***`UVSB`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/7989087)[code] <br>
+  > Younggun Cho and Ayoung Kim.Visibility enhancement for underwater visual slam based on underwater light scattering model. In 2017 IEEE International Conference on Robotics and Automation (ICRA), pages 710–717. IEEE, 2017. 1, 2, 7, 8
 
 * `GDCP`[[paper]](https://ieeexplore.ieee.org/document/8307410)[code] <br>
-Peng Y., Cao K., Cosman P.C. Generalization of the dark channel prior for single image restoration IEEE Trans Image Process, 27 (6) (2018), pp. 2856-2868
-* `GVF`[paper][code] <br>
-Hou G., Li J., Wang G., Yang H., Huang B., Pan Z. A novel dark channel prior guided variational framework for underwater image restoration J Vis Commun Image Represent, 66 (2020), Article 102732
+  > Peng Y., Cao K., Cosman P.C. Generalization of the dark channel prior for single image restoration IEEE Trans Image Process, 27 (6) (2018), pp. 2856-2868
 
-* `RBEA`[[paper]](https://ieeexplore.ieee.org/document/7025927)[code] <br>
-Fu X., Zhuang P., Huang Y., Liao Y., Zhang X., Ding X. A retinex-based enhancing approach for single underwater image 2014 IEEE international conference on image processing (ICIP) (2014), pp. 4572-4576
+* ***`GVF`*** ----- [[paper]](https://www.sciencedirect.com/science/article/pii/S1047320319303530?casa_token=n-B0bDz4IYYAAAAA:NHjAfpQznSTLcdExB52h5Z-_AQjL5BiGcwz_46P_cSYNNXWuU7WAmo2WReCTjpMGJ-20UJJilEs)[code] <br>
+  > Hou G., Li J., Wang G., Yang H., Huang B., Pan Z. A novel dark channel prior guided variational framework for underwater image restoration J Vis Commun Image Represent, 66 (2020), Article 102732
+
+* ***`Deep SESR`*** ----- [[paper]](https://arxiv.org/abs/2002.01155)[code] <br>
+  > M. J. Islam, P. Luo and J. Sattar, "Simultaneous Enhancement and Super-Resolution of Underwater Imagery for Improved Visual Perception", Robotics: Science and Systems (RSS), 2020.
+
+* ***`NUDCP`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/8957276)[code] <br>
+  > W. Song, Y. Wang, D. Huang, A. Liotta, and C. Perra, “Enhancement of Underwater Images with Statistical Model of Background Light and Optimization of Transmission Map,” IEEE Trans. Broadcast. 66(1), 153–169 (2020).
+
+----------
+----------
