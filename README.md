@@ -86,7 +86,7 @@ Underwater Image Enhancement Benchmark Dataset（水下图像增强基准数据�
 * ***`Ucolor`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/9426457)[code] <br>
   > C. Li, S. Anwar, J. Hou, R. Cong, C. Guo and W. Ren, "Underwater Image Enhancement via Medium Transmission-Guided Multi-Color Space Embedding," in IEEE Transactions on Image Processing, vol. 30, pp. 4985-5000, 2021, doi: 10.1109/TIP.2021.3076367.
 
-## 2 Tradition
+## 2 Traditional
 * ***`SSR`*** ----- [[paper]](https://ieeexplore.ieee.org/abstract/document/557356)[code]
   > Jobson D.J., Rahman Z. Properties and performance of a center/surround retinex IEEE Trans Image Process, 6 (3) (1997), pp. P.451-462 <br>
 
