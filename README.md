@@ -2,7 +2,7 @@
 The information about underwater images enhancment(updating……)
 <br>
 
-🏠 [Commomly-used Physical Models](#Commomly-used Physical Models) <br>
+🏠 [Commomly-used Physical Models](#Commomly-used_Physical_Models) <br>
 🍱 [Datasets](#Datasets) <br>
 🍜 [Survey](#Survey) <br>
 🍢 [Methods](#Methods) <br>
@@ -10,7 +10,7 @@ The information about underwater images enhancment(updating……)
 🍧
 🍰
 
-<p id="Commomly-used Physical Models"></p>
+<p id="Commomly-used_Physical_Models"></p>
 
 # Commomly-used Physical Models
 * atmospheric acattering model [[paper]]()
